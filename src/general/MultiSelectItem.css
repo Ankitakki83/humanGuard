@@ -1,0 +1,23 @@
+.base {
+  width: auto;
+  height: 40px;
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  border: 2px solid #ebeced;
+  border-radius: 3px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-family: regular;
+  transition: 300ms;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.selected {
+  composes: base;
+  border-bottom: 2px solid #2dde98;
+}

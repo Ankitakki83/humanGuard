@@ -1,0 +1,88 @@
+.base {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  padding: 2em;
+  overflow: hidden;
+}
+
+.carousalTitleArrowWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 261px;
+}
+
+html[dir="ltr"] .forwardArrow {
+  background-color: #c6c6c6;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+html[dir="rtl"] .forwardArrow {
+  background-color: #c6c6c6;
+  padding: 4px;
+  margin-right: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+html[dir="ltr"] .backwardArrow {
+  background-color: #c6c6c6;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+html[dir="rtl"] .backwardArrow {
+  background-color: #c6c6c6;
+  padding: 4px;
+
+  border-radius: 10px;
+  cursor: pointer;
+
+  cursor: pointer;
+}
+
+.title {
+  font-family: Proxima Nova;
+  width: 120px;
+  text-align: center;
+}
+
+.imageHolder {
+  width: 100%;
+  height: auto;
+  transition: 300ms;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+.slider {
+  composes: imageHolder;
+  transition: none;
+}
+
+.item {
+  /* width: 20%; */
+  height: 100%;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1025px) {
+  .title {
+    font-family: Proxima Nova;
+    width: 223px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+  }
+}

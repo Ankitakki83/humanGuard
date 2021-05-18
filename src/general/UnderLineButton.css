@@ -1,0 +1,11 @@
+.base {
+  width: 100%;
+  cursor: pointer;
+}
+
+.actionButton {
+  font-family: "ProximaNova-Semibold";
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+}

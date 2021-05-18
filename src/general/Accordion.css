@@ -1,0 +1,41 @@
+html[dir="ltr"] .container {
+  font-family: ProximaNova-Semibold;
+  cursor: pointer;
+  padding: 20px;
+  /* border-top: solid 1px #c6c6c6; */
+  border-bottom: solid 1px #f3f3f3;
+  text-align: left;
+  outline: none;
+  padding-left: 10px;
+  font-size: 16px;
+}
+html[dir="rtl"] .container {
+  font-family: ProximaNova-Semibold;
+  cursor: pointer;
+  padding: 20px;
+  /* border-top: solid 1px #c6c6c6; */
+  border-bottom: solid 1px #f3f3f3;
+  text-align: right;
+  outline: none;
+  padding-right: 10px;
+  font-size: 16px;
+}
+html[dir="ltr"] .container span {
+  float: right;
+}
+html[dir="rtl"] .container span {
+  float: left;
+}
+.svgIcon {
+  transform: rotate(0deg);
+}
+.svgChange {
+  transform: rotate(90deg);
+}
+.base {
+  width: 100%;
+  margin-top: 15px;
+}
+.panel {
+  border-top: solid 1px #c6c6c6;
+}

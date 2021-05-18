@@ -1,0 +1,37 @@
+.base {
+  width: 100%;
+  height: 78px;
+  display: flex;
+  align-items: center;
+}
+
+.tickIcon {
+  margin-left: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-left: 15px;
+}
+.notSelectedLabel {
+  composes: label;
+  font-family: Proxima Nova;
+}
+.selectedLabel {
+  composes: label;
+  font-family: ProximaNova-Semibold;
+}

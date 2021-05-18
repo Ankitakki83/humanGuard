@@ -1,0 +1,38 @@
+.base {
+  width: 100%;
+}
+.headerTitleWrapper {
+  display: flex;
+
+  justify-content: space-between;
+  border-bottom: 2px dotted #757474;
+}
+.headerTitle {
+  font-family: Proxima Nova;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  color: #757474;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTitleSelected {
+  composes: headerTitle;
+  font-family: ProximaNova-semibold;
+
+  color: #000;
+}
+.bottomTab {
+  width: 98px;
+
+  margin-top: 8px;
+}
+.bottomTabSelected {
+  composes: bottomTab;
+  width: 98px;
+  outline: 2px solid #000;
+  margin-top: 8px;
+}

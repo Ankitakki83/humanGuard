@@ -1,0 +1,160 @@
+.base {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+.imageWrapper {
+  width: 500px;
+  margin: auto;
+}
+.featureWrapper {
+  padding-left: 25%;
+}
+.darkColor {
+  color: var(--text-color-dark);
+}
+
+.cardOneDescription {
+  /* composes: cardDescription; */
+  animation-duration:unset;
+  animation-name: slidein;
+  /* max-width: 60%; */
+  margin-left: 20%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+  /* color: rgba(0,0,0,0); */
+  
+}
+.feature {
+  composes: darkColor;
+  font-size: 20px;
+  animation-duration: 0s;
+  animation-name: fadeIn;
+}
+.feature1 {
+  composes: darkColor;
+  font-size: 20px;
+  animation-duration: 0.5s;
+  animation-name: fadeIn;
+}
+.feature2 {
+  composes: darkColor;
+  font-size: 20px;
+  animation-duration: 1.5s;
+  animation-name: fadeIn;
+}
+.feature3 {
+  composes: darkColor;
+  font-size: 20px;
+  animation-duration: 2s;
+  animation-name: fadeIn;
+}
+.feature4 {
+  composes: darkColor;
+  font-size: 20px;
+  animation-duration: 2.5s;
+  animation-name: fadeIn;
+}
+.imageWrapperMobile {
+  display: none;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    margin-left: 30%;
+  }
+
+  to {
+    opacity: 1;
+    margin-left: 0%;
+  }
+}
+.border {
+  height: 3px;
+  margin: 30px 0px;
+  background-color: var(--text-color-dark);
+  width: 50px;
+  border-radius: 5px;
+}
+
+.aboutText {
+  margin-top: 30px;
+  padding-top: 0px;
+  font-family: Hind, sans-serif;
+  color: #758d99;
+  font-size: 18px;
+  line-height: 170%;
+  font-weight: 400;
+}
+
+.showMore {
+  outline: none;
+  border: none;
+  background: var(--background-color-midDark);
+  color: var(--text-color-dark);
+  cursor: pointer;
+}
+
+.moreContent {
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .base {
+    height: 100%;
+    flex-direction: column;
+  }
+  .border {
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
+  .featureWrapper {
+    padding: 0;
+  }
+  .darkColor {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .right {
+    display: none;
+  }
+  .imageWrapperMobile {
+    width: 300px;
+    margin: auto;
+    display: block;
+  }
+  .aboutText {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  .pad {
+    padding: 0px 20px;
+  }
+  .showMore {
+    padding: 0;
+    font-family: "ProximaNova-Bold";
+  }
+}

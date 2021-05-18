@@ -1,0 +1,14 @@
+.base {
+  width: 100%;
+}
+.Countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CountdownColElement {
+  margin-right: 4px;
+}
+.labelnonBold {
+  font-family: Proxima Nova;
+}

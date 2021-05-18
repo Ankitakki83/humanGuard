@@ -1,0 +1,22 @@
+.base {
+  font-family: Proxima Nova;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.centerAlign {
+  justify-content: center;
+}
+.leftAlign {
+  justify-content: flex-start;
+}
+.rightAlign {
+  justify-content: flex-end;
+}
+.label {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.iconLeft {
+  flex-direction: row-reverse;
+}

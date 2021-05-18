@@ -1,0 +1,60 @@
+.base {
+  width: 100%;
+}
+.input {
+  border-bottom: 1px solid #c6c6c6;
+  display: flex;
+  align-items: center;
+  background: white;
+  position: relative;
+}
+/* .input input {
+  background: white;
+} */
+.inputWrapper {
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.inputTransparentDiv {
+  height: 100vh;
+  background-color: black;
+
+  opacity: 0.3;
+}
+
+html[dir="ltr"] .searchIcon {
+  margin-left: 20px;
+}
+html[dir="rtl"] .searchIcon {
+  margin-right: 20px;
+}
+html[dir="ltr"] .closeMobile {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 15px;
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+html[dir="rtl"] .closeMobile {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 15px;
+  background-color: #fff;
+  padding: 15px;
+  cursor: pointer;
+}
+.inputCloseWrap {
+  width: 100%;
+}
+@media (min-device-width: 1025px) {
+  .clearContent {
+    cursor: pointer;
+  }
+}

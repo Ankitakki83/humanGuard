@@ -1,0 +1,38 @@
+.wishlistButtonWrapper {
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+html[dir="ltr"] .wishlistButtonText {
+  font-size: 18px;
+  font-family: Proxima Nova;
+  margin-left: 9.4px;
+  cursor: pointer;
+}
+html[dir="ltr"] .wishlistButtonWrapperForCart {
+  height: 39px;
+  display: flex;
+  padding-left: 25px;
+  align-items: center;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+html[dir="rtl"] .wishlistButtonWrapperForCart {
+  height: 39px;
+  display: flex;
+  padding-right: 25px;
+  align-items: center;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+html[dir="rtl"] .wishlistButtonText {
+  font-size: 18px;
+  font-family: Proxima Nova;
+  margin-right: 9.4px;
+  cursor: pointer;
+}
+.addToWishlist {
+  cursor: pointer;
+}

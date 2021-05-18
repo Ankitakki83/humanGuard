@@ -1,0 +1,53 @@
+.base {
+  width: 100%;
+}
+.buttonWrapper {
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  width: 100%;
+}
+.paddingWrapper {
+  width: 100%;
+}
+.addToBagButtonWrapper {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+}
+html[dir="ltr"] .buyNowButton {
+  width: 50%;
+  margin-right: 3px;
+}
+html[dir="rtl"] .buyNowButton {
+  width: 50%;
+  margin-left: 3px;
+}
+.addToBagButton {
+  width: 50%;
+}
+.goToCart {
+  width: 50%;
+}
+.soldOuttitle {
+  display: flex;
+  justify-content: center;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.soldOutWrapper {
+  padding: 10px;
+  background-color: #fff;
+}
+@media (min-width: 1025px) {
+  .addToBagButtonWrapper {
+    display: flex;
+    padding: 0px;
+    background-color: #fff;
+    margin-top: 17px;
+  }
+  .buttonWrapper {
+    position: initial;
+  }
+}

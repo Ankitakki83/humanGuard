@@ -1,0 +1,15 @@
+.title {
+  font-family: "Proxima Nova";
+  color: #757474;
+  font-size: 12px;
+  display: flex;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.titleWrapper {
+  display: flex;
+}
+.strip {
+  margin-right: 3px;
+}

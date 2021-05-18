@@ -1,0 +1,99 @@
+.base {
+  display: flex;
+}
+html[dir="ltr"] .iconWrapper {
+  position: absolute;
+  right: 20px;
+}
+html[dir="rtl"] .iconWrapper {
+  position: absolute;
+  left: 20px;
+  transform: rotate(180deg);
+}
+.tabWrapper {
+  border-left: 2px solid black;
+  display: flex;
+  position: relative;
+  height: auto;
+  align-items: center;
+  height: 45px;
+  cursor: pointer;
+
+  margin-bottom: 2px;
+}
+.iconWrapper {
+  cursor: pointer;
+}
+.tabWrapperNotClicked {
+  composes: tabWrapper;
+  border-left: none;
+  background-color: #e5e5e5;
+}
+.tabHeading:hover {
+  font-family: ProximaNova-Semibold;
+}
+html[dir="ltr"] .tabHeading {
+  margin-left: 21px;
+  font-family: Proxima Nova;
+  font-size: 14px;
+
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #000000;
+}
+html[dir="rtl"] .tabHeading {
+  margin-right: 21px;
+  font-family: Proxima Nova;
+  font-size: 14px;
+
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #000000;
+}
+html[dir="ltr"] .tabHeadingSelected {
+  margin-left: 21px;
+
+  font-size: 14px;
+
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #000000;
+  font-family: ProximaNova-Semibold;
+}
+html[dir="rtl"] .tabHeadingSelected {
+  margin-right: 21px;
+
+  font-size: 14px;
+
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #000000;
+  font-family: ProximaNova-Semibold;
+}
+
+.tabContentWrapper {
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+}
+.wrapper {
+  display: flex;
+  width: 30%;
+  flex-flow: column;
+}
+.contentWrapper {
+  height: auto;
+  width: 70%;
+}

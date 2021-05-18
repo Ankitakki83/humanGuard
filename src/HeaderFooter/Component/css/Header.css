@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+.base {
+  width: 100%;
+  transition: all 0.4s;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.fixedHeader {
+  position: fixed;
+  background-color: var(--background-color-normal);
+}
+.title {
+  font-size: 40px;
+  padding: 20px;
+  font-family: "ProximaNova-Bold";
+  transition: all 0.4s;
+}
+.titleSmall {
+  font-size: 30px;
+  padding: 10px;
+  color: var(--text-color-dark);
+}
+.tittleWrapper {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.rightSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.links {
+  padding: 30px 0px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.linksSmall {
+  padding: 15px 0px;
+}
+.link {
+  line-height: 22px;
+  padding: 20px 15px;
+  /* color: var(--text-color-dark); */
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: ProximaNova-SemiBold;
+  -webkit-transition: margin 0.4s ease, padding 0.4s ease;
+  -o-transition: margin 0.4s ease, padding 0.4s ease;
+  transition: margin 0.4s ease, padding 0.4s ease;
+}
+.searchBox {
+  padding: 0px 20px;
+  position: relative;
+}
+.dropDown {
+  position: absolute;
+  top: 37px;
+  right: 15px;
+}
+.settingIcon {
+  cursor: pointer;
+}
+.settingIconMobile {
+  display: none;
+}
+.settingIcon:hover {
+  animation: rotateIcon 1s linear infinite;
+}
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .base {
+    /* display: none; */
+    background-color: #fff;
+  }
+  .links {
+    display: none;
+  }
+
+  /* .base {
+    margin: 0 0 11px;
+    padding: 16px 21px 11px;
+    background-color: #ffffff;
+  } */
+
+  .title {
+    margin: 2px 12px 0 0;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  .searchBox {
+    display: none;
+  }
+  .settingIconMobile {
+    display: flex;
+    padding: 9.3px 10.2px 9.3px 10.2px;
+  }
+}

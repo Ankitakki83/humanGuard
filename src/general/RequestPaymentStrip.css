@@ -1,0 +1,182 @@
+.test {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+.base {
+  margin-left: 12px;
+  margin-right: 12px;
+  border-bottom: 1px solid #f8f8f8;
+  position: relative;
+}
+.baseSelected {
+  composes: base;
+  background: #f8f8f8;
+}
+.showWhiteBase {
+  composes: base;
+  background: #fff;
+}
+html[dir="ltr"] .verifyMyAccountPayment {
+  margin-left: 10px;
+}
+html[dir="rtl"] .verifyMyAccountPayment {
+  margin-right: 10px;
+}
+.checkbox {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.unsetCheckbox {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #757474;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blackTick {
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.unTitles {
+  color: #757474;
+}
+
+html[dir="ltr"] .selectedLabelTitle {
+  margin-left: 10px;
+  font-family: ProximaNova-Semibold;
+  font-size: 14px;
+}
+html[dir="rtl"] .selectedLabelTitle {
+  margin-right: 10px;
+  font-family: ProximaNova-Semibold;
+  font-size: 14px;
+}
+.component {
+  padding: 10px;
+  background: #fff;
+}
+.modalComponent {
+  padding: 10px;
+}
+.subLabelTitle {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #757474;
+  font-family: Proxima Nova;
+  margin-top: 5px;
+}
+html[dir="ltr"] .verifiedLabel {
+  margin-top: 1px;
+  margin-left: 5px;
+  font-family: Proxima Nova;
+  font-size: 10px;
+  color: #3cba54;
+}
+html[dir="rtl"] .verifiedLabel {
+  margin-top: 1px;
+  margin-right: 5px;
+  font-family: Proxima Nova;
+  font-size: 10px;
+  color: #3cba54;
+}
+html[dir="ltr"] .verified {
+  display: flex;
+  right: 12px;
+  position: absolute;
+}
+html[dir="rtl"] .verified {
+  display: flex;
+  left: 12px;
+  position: absolute;
+}
+
+.verifyLabel {
+  margin-top: 1px;
+  border-bottom: 1px solid #eb2026;
+  font-family: Proxima Nova;
+  font-size: 10px;
+  color: #eb2026;
+}
+.titles {
+  position: relative;
+}
+.labelTitle {
+  margin-right: 10px;
+  font-family: Proxima Nova;
+  font-size: 14px;
+}
+
+.paymentStripDropdownWrapper {
+  display: flex;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  padding: 15px;
+  margin-top: 10px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.verifiedLabelmyAccountPyament {
+  font-family: Proxima Nova;
+  font-size: 16px;
+  color: #3cba54;
+  cursor: pointer;
+}
+.verifyLabelmyAccountPyament {
+  font-family: Proxima Nova;
+  font-size: 16px;
+  color: #eb2026;
+  cursor: pointer;
+}
+html[dir="ltr"] .iconMyAccountPaymentDetails {
+  transform: rotate(90deg);
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
+}
+html[dir="rtl"] .iconMyAccountPaymentDetails {
+  transform: rotate(90deg);
+  position: absolute;
+  left: 25px;
+  cursor: pointer;
+}
+
+html[dir="ltr"] .iconMyAccountPaymentDetailsSelected {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
+}
+html[dir="rtl"] .iconMyAccountPaymentDetailsSelected {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 25px;
+  cursor: pointer;
+}
+@media (min-width: 1025px) {
+  .titles {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .component {
+    padding: 10px;
+  }
+  .labelTitle {
+    width: 33.3%;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,76 @@
+.checkboxHeader {
+  display: flex;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackTick {
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.suffix {
+  margin-top: 2px;
+  margin-left: 5px;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #eb2026;
+}
+
+html[dir="ltr"] .labelTitle {
+  margin-left: 20px;
+  margin-top: 2px;
+  font-family: Proxima Nova;
+  font-size: 14px;
+}
+
+html[dir="rtl"] .labelTitle {
+  margin-right: 20px;
+  margin-top: 2px;
+  font-family: Proxima Nova;
+  font-size: 14px;
+}
+
+.component {
+  padding-top: 15px;
+}
+
+html[dir="ltr"] .icon {
+  margin-left: 10px;
+  width: 50px;
+  margin-top: 2px;
+}
+
+html[dir="ltr"] .icon {
+  margin-right: 10px;
+  width: 50px;
+  margin-top: 2px;
+}
+@media (min-device-width: 1025px) {
+  .base {
+    border: 1px solid #f4f4f4;
+    padding: 12px;
+    cursor: pointer;
+    background: #fff;
+  }
+
+  .desktop {
+    background: #f4f4f4;
+    padding: 12px;
+  }
+}
+@media (max-device-width: 1024px) {
+  .base {
+    padding: 12px;
+  }
+}

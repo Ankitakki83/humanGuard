@@ -1,0 +1,77 @@
+.base {
+  width: 100%;
+  height: 40px;
+  border-radius: 2px;
+  background: #fff;
+  display: flex;
+  transition: 300ms;
+}
+
+.disabled {
+  composes: base;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.hollow {
+  composes: base;
+  background: transparent;
+  border: 1px solid #e8edf1;
+}
+.box {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0 20px;
+  font-size: 18px;
+  color: inherit;
+  background: transparent;
+  font-family: Proxima Nova;
+}
+.box:focus {
+  border: none;
+  outline: none;
+}
+.leftChild,
+.rightChild {
+  width: auto;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.inputIconWrapper {
+  display: flex;
+}
+input:required {
+  box-shadow: none;
+}
+input:invalid {
+  box-shadow: none;
+}
+.paymentAmount {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0 20px;
+  font-size: 18px;
+  /* color: inherit; */
+  background: transparent;
+  font-family: Proxima Nova;
+}
+.paymentAmount:focus {
+  border: none;
+  outline: none;
+}
+/*******......this css is only for firefox......*******/
+@-moz-document url-prefix() {
+  .base {
+    position: relative;
+  }
+  .rightChild {
+    position: absolute;
+    right: 0px;
+  }
+  .paymentAmount {
+    width: 50%;
+  }
+}

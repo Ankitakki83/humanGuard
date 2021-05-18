@@ -1,0 +1,52 @@
+.base {
+  padding: 30px 40px;
+  background-color: #292929;
+}
+.wrapper {
+  display: flex;
+  width: 70%;
+  margin: 0px auto;
+  padding: 30px 0px;
+}
+.leftSection,
+.rightSection {
+  width: 50%;
+}
+.addressHeading {
+  font-size: 26px;
+  color: #595959;
+}
+.subAddress {
+  padding-left: 20px;
+  margin-top: 25px;
+  max-width: 50%;
+  color: #595959;
+}
+.addressWrapper {
+  padding-left: 20px;
+}
+.address {
+  font-size: 14px;
+  line-height: 20px;
+  color: #595959;
+}
+
+.color {
+  color: #595959;
+  font-size: 12px;
+  cursor: pointer;
+}
+.mobile {
+  font-size: 13px;
+  color: #595959;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  }
+  .leftSection,
+  .rightSection {
+    width: 100%;
+  }
+}

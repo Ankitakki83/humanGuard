@@ -1,0 +1,126 @@
+.base {
+  background-color: #fff;
+}
+html[dir="ltr"] .componentTitle {
+  font-family: Proxima Nova;
+  padding: 20px;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+}
+html[dir="rtl"] .componentTitle {
+  font-family: Proxima Nova;
+  padding: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+
+html[dir="ltr"] .svgIconRotate {
+  position: absolute;
+  right: 20px;
+  transform: rotate(45deg);
+}
+html[dir="rtl"] .svgIconRotate {
+  position: absolute;
+  left: 20px;
+  transform: rotate(45deg);
+}
+/* .panel {
+  padding: 0px 20px 10px;
+} */
+
+.openArrow {
+  height: 10px;
+  width: 10px;
+  transform: rotate(-90deg);
+}
+.closeArrow {
+  height: 10px;
+  width: 10px;
+  transform: rotate(90deg);
+}
+.titlesWrapper {
+  display: flex;
+  align-items: center;
+}
+html[dir="ltr"] .titleSubTitleWrapper {
+  margin-left: 24px;
+}
+html[dir="rtl"] .titleSubTitleWrapper {
+  margin-right: 24px;
+}
+.quantity {
+  font-size: 16px;
+  font-family: Proxima Nova;
+  min-width: 23px;
+}
+.title1 {
+  font-size: 14px;
+  font-family: ProximaNova-Semibold;
+}
+.title2 {
+  font-size: 14px;
+  font-family: Proxima Nova;
+  margin-top: 5px;
+  max-width: 805px;
+}
+
+html[dir="ltr"] .contentWrapper {
+  font-family: Proxima Nova;
+  background-color: #e4e4e5;
+  padding: 13px;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+html[dir="rtl"] .contentWrapper {
+  font-family: Proxima Nova;
+  background-color: #e4e4e5;
+  padding: 13px;
+  font-size: 16px;
+  text-align: right;
+  position: relative;
+  cursor: pointer;
+}
+html[dir="ltr"] .contentWrapper span {
+  position: absolute;
+  right: 25px;
+}
+html[dir="rtl"] .contentWrapper span {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+html[dir="ltr"] .iconPosition {
+  position: absolute;
+  right: 20px;
+}
+html[dir="rtl"] .iconPosition {
+  position: absolute;
+  left: 20px;
+}
+html[dir="ltr"] .cashBuyStrip {
+  margin-top: 2px;
+  font-size: 12px;
+  font-family: ProximaNova-Semibold;
+  color: #eb2026;
+}
+html[dir="rtl"] .cashBuyStrip {
+  margin-top: 2px;
+  font-size: 12px;
+  font-family: ProximaNova-Semibold;
+  color: #eb2026;
+}
+@media (min-width: 1025px) {
+  .base {
+    background-color: #fafafa;
+  }
+}

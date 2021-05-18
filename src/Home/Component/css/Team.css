@@ -1,0 +1,61 @@
+.base {
+  width: 100%;
+  margin: 0px 0px 0px;
+  background: var(--background-color-midDark);
+  padding: 30px 0px;
+}
+.topSection {
+  text-align: center;
+}
+.heading {
+  color: var(--text-color-dark);
+}
+.divider {
+  width: 150px;
+  border: none;
+  background: #444;
+  height: 3px;
+  border-radius: 2px;
+}
+.teamWrapper {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.cardWrapper {
+  width: 33.33%;
+  padding: 30px 20px;
+}
+.card {
+  background-color: var(--background-color-normal);
+  padding: 20px;
+}
+.imageWrapper {
+  height: 200px;
+  margin: auto;
+  width: 200px;
+}
+.details {
+  padding: 10px;
+}
+.name {
+  color: var(--text-color-dark);
+  margin: 20px 0px;
+}
+.title {
+  color: var(--text-color-dark);
+}
+.socialLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}

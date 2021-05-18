@@ -1,0 +1,97 @@
+.base {
+  width: 100%;
+  transform: translateZ(-1px);
+}
+.card {
+  height: 100vh;
+  position: relative;
+}
+.cardDescription {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  width: 100%;
+  color: var(--text-color-normal);
+}
+.cardOneDescription {
+  composes: cardDescription;
+  animation-duration:unset;
+  /* animation-name: slidein; */
+  max-width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(0,0,0,0);
+  
+}
+.cardTwoDescription {
+  composes: cardDescription;
+  max-width: 60%;
+  margin-left: 30px;
+  padding: 20px;
+}
+.cardThirdDescription {
+  composes: cardDescription;
+  animation-duration: 3s;
+  animation-name: slidein;
+  max-width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+}
+.darkColor {
+  color: var(--text-color-dark);
+}
+.normalColor {
+  color: var(--text-color-normal);
+}
+.headingTwo {
+  composes: normalColor;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.subHeadingTwo {
+  composes: normalColor;
+  animation-duration: 3.001s;
+  animation-name: slidein;
+}
+.headingThird {
+  composes: normalColor;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.subHeadingThird {
+  composes: normalColor;
+  animation-duration: 3.001s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
+.scrollToButton {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  cursor: pointer;
+  animation: scrollButtonAnimation 2s infinite;
+}
+@keyframes scrollButtonAnimation {
+  from {
+    margin-bottom: 0px;
+    opacity: 1;
+  }
+
+  to {
+    margin-bottom: -30px;
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+}

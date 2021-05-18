@@ -1,0 +1,41 @@
+.base {
+  width: 100%;
+  background: #292929;
+}
+.footerWrapper {
+  width: 70%;
+  margin: 0px auto 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.copyRight,
+.color {
+  color: #595959;
+  font-size: 12px;
+  cursor: pointer;
+}
+.contactDetails {
+  display: flex;
+}
+.email {
+  margin-right: 40px;
+}
+@media only screen and (max-width: 1024px) {
+  .footerWrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+  }
+  .copyRight {
+    margin-top: 20px;
+  }
+}

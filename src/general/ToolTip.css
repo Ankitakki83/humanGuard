@@ -1,0 +1,58 @@
+.base {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.toolTipTextHolder {
+  visibility: hidden;
+  width: 150px;
+  font-size: 9px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: Proxima Nova;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+}
+.toolTipTextHolder::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, 0.8) transparent;
+  transform: rotate(180deg);
+}
+.toolTipTextHolderRight {
+  composes: toolTipTextHolder;
+  right: -5px;
+}
+.toolTipTextHolderRight::after {
+  right: 6px;
+}
+.toolTipTextHolderLeft {
+  composes: toolTipTextHolder;
+  left: -5px;
+}
+.toolTipTextHolderLeft::after {
+  left: 6px;
+}
+.toolTipTextHolderCenter {
+  composes: toolTipTextHolder;
+  right: -74px;
+}
+.toolTipTextHolderCenter::after {
+  right: 74px;
+}
+.base:hover .toolTipTextHolder {
+  visibility: visible;
+}
+.iconWrapper {
+  width: auto;
+  display: inline-block;
+  height: auto;
+  margin-top: 2px;
+}

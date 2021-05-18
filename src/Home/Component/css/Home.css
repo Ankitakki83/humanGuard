@@ -1,0 +1,16 @@
+.base {
+}
+.back {
+  font-size: 30px;
+}
+.front {
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+.second {
+  background-color: var(--background-color-normal);
+}
+.third {
+  background-color: var(--background-color-midDark);
+}
