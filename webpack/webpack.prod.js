@@ -22,22 +22,7 @@ module.exports = require("./webpack.base")({
     path: path.join(process.cwd(), "dist"),
     publicPath: process.env.BASE_PATH // this is for deploy to sub directory . we need to change it to /
   },
-  optimization: {
-    splitChunks: {
-      name: false,
-      cacheGroups: {
-        default: false,
-        vendors: false,
-
-        vendor: {
-          // sync + async chunks
-          chunks: "all",
-          // import file path containing node_modules
-          test: /node_modules/
-        }
-      }
-    }
-  },
+  optimization: {},
   // Add production plugins
   plugins: [
     // new webpack.optimize.ModuleConcatenationPlugin(),
