@@ -1,24 +1,24 @@
 {
   "files": {
-    "i18n-ar.js": "/Ankitakki83/humanGuardstatic/js/i18n-ar.b9840307.chunk.js",
-    "i18n-ar.js.map": "/Ankitakki83/humanGuardstatic/js/i18n-ar.b9840307.chunk.js.map",
-    "i18n-en.js": "/Ankitakki83/humanGuardstatic/js/i18n-en.4431ddb9.chunk.js",
-    "i18n-en.js.map": "/Ankitakki83/humanGuardstatic/js/i18n-en.4431ddb9.chunk.js.map",
+    "i18n-ar.js": "/Ankitakki83/humanGuardstatic/js/i18n-ar.6d1ff468.chunk.js",
+    "i18n-ar.js.map": "/Ankitakki83/humanGuardstatic/js/i18n-ar.6d1ff468.chunk.js.map",
+    "i18n-en.js": "/Ankitakki83/humanGuardstatic/js/i18n-en.cb839939.chunk.js",
+    "i18n-en.js.map": "/Ankitakki83/humanGuardstatic/js/i18n-en.cb839939.chunk.js.map",
     "main.css": "/Ankitakki83/humanGuardstatic/css/main.9044c720.chunk.css",
-    "main.js": "/Ankitakki83/humanGuardstatic/js/main.942d11e8.chunk.js",
-    "main.js.map": "/Ankitakki83/humanGuardstatic/js/main.942d11e8.chunk.js.map",
-    "runtime-main.js": "/Ankitakki83/humanGuardstatic/js/runtime-main.f6c64d95.js",
-    "runtime-main.js.map": "/Ankitakki83/humanGuardstatic/js/runtime-main.f6c64d95.js.map",
-    "static/js/4.af9622e9.chunk.js": "/Ankitakki83/humanGuardstatic/js/4.af9622e9.chunk.js",
-    "static/js/4.af9622e9.chunk.js.map": "/Ankitakki83/humanGuardstatic/js/4.af9622e9.chunk.js.map",
+    "main.js": "/Ankitakki83/humanGuardstatic/js/main.b83de43a.chunk.js",
+    "main.js.map": "/Ankitakki83/humanGuardstatic/js/main.b83de43a.chunk.js.map",
+    "runtime-main.js": "/Ankitakki83/humanGuardstatic/js/runtime-main.be8beff8.js",
+    "runtime-main.js.map": "/Ankitakki83/humanGuardstatic/js/runtime-main.be8beff8.js.map",
+    "static/js/4.73ed0eaa.chunk.js": "/Ankitakki83/humanGuardstatic/js/4.73ed0eaa.chunk.js",
+    "static/js/4.73ed0eaa.chunk.js.map": "/Ankitakki83/humanGuardstatic/js/4.73ed0eaa.chunk.js.map",
     "index.html": "/Ankitakki83/humanGuardindex.html",
     "static/css/main.9044c720.chunk.css.map": "/Ankitakki83/humanGuardstatic/css/main.9044c720.chunk.css.map",
-    "static/js/4.af9622e9.chunk.js.LICENSE.txt": "/Ankitakki83/humanGuardstatic/js/4.af9622e9.chunk.js.LICENSE.txt"
+    "static/js/4.73ed0eaa.chunk.js.LICENSE.txt": "/Ankitakki83/humanGuardstatic/js/4.73ed0eaa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f6c64d95.js",
-    "static/js/4.af9622e9.chunk.js",
+    "static/js/runtime-main.be8beff8.js",
+    "static/js/4.73ed0eaa.chunk.js",
     "static/css/main.9044c720.chunk.css",
-    "static/js/main.942d11e8.chunk.js"
+    "static/js/main.b83de43a.chunk.js"
   ]
 }

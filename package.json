@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"test\"",
     "start": "webpack-dev-server --mode development --config webpack/webpack.dev.js --open --history-api-fallback --host",
-    "build": "react-scripts build",
+    "build": "NODE_ENV=production webpack --mode production --config webpack/webpack.prod.js",
     "start:dev-server": "pm2 start ecosystem.config.js",
     "server": "babel-node app.js"
   },
@@ -57,6 +57,7 @@
     "@researchgate/react-intersection-list": "^1.0.2",
     "@researchgate/react-intersection-observer": "^0.6.1",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
     "babel-plugin-css-modules-transform": "^1.6.2",
     "babel-plugin-dynamic-import-node": "^2.2.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
