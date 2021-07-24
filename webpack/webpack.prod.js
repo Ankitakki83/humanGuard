@@ -20,7 +20,8 @@ module.exports = require("./webpack.base")({
     filename: "[name]-bundle.js",
     chunkFilename: "[name].[hash].chunk.js",
     path: path.join(process.cwd(), "dist"),
-    publicPath: process.env.BASE_PATH // this is for deploy to sub directory . we need to change it to /
+    // publicPath: process.env.BASE_PATH // this is for deploy to sub directory . we need to change it to /
+    publicPath: "https://ankitakki83.github.io/humanGuard/dist" // this is for deploy to sub directory . we need to change it to /
   },
   optimization: {},
   // Add production plugins

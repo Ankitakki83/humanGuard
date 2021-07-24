@@ -17,18 +17,18 @@
     "0": {
       "js": [
         {
-          "file": "i18n-ar.6af0a7ec44de9ba700c4.chunk.js",
+          "file": "i18n-ar.3e9d7c4fdf4c0b0e9be9.chunk.js",
           "hash": "f9c32684393579ecf925",
-          "publicPath": "/i18n-ar.6af0a7ec44de9ba700c4.chunk.js"
+          "publicPath": "https://ankitakki83.github.io/humanGuard/i18n-ar.3e9d7c4fdf4c0b0e9be9.chunk.js"
         }
       ]
     },
     "1": {
       "js": [
         {
-          "file": "i18n-en.6af0a7ec44de9ba700c4.chunk.js",
+          "file": "i18n-en.3e9d7c4fdf4c0b0e9be9.chunk.js",
           "hash": "bbaa3ee2239f5feb21b6",
-          "publicPath": "/i18n-en.6af0a7ec44de9ba700c4.chunk.js"
+          "publicPath": "https://ankitakki83.github.io/humanGuard/i18n-en.3e9d7c4fdf4c0b0e9be9.chunk.js"
         }
       ]
     },
@@ -36,15 +36,15 @@
       "css": [
         {
           "file": "main.css",
-          "hash": "b21eed200fc204eeeb97",
-          "publicPath": "/main.css"
+          "hash": "7979b40b2aa8b089975d",
+          "publicPath": "https://ankitakki83.github.io/humanGuard/main.css"
         }
       ],
       "js": [
         {
           "file": "main-bundle.js",
-          "hash": "b21eed200fc204eeeb97",
-          "publicPath": "/main-bundle.js"
+          "hash": "7979b40b2aa8b089975d",
+          "publicPath": "https://ankitakki83.github.io/humanGuard/main-bundle.js"
         }
       ]
     }
