@@ -4,6 +4,9 @@ import { FormattedMessage } from "react-intl";
 import HomeMessages from "../Messages/HomeMessages";
 import Icon from "../../general/Icon";
 import { PUBLIC_ASSETS_PATH } from "../../Utils/Constants";
+import Image from "../../general/Image";
+
+
 class Portfolio extends React.Component {
   renderPortfolioCard = (item) => {
     return (
@@ -56,10 +59,34 @@ class Portfolio extends React.Component {
         <hr className={styles.divider} />
         <div className={styles.portfolioWrapper}>
           <div className={styles.portfolioTwo}>
-            {this.renderPortfolioCard(littraPersonalization)}
+            {/* {this.renderPortfolioCard(littraPersonalization)} */}
+            <Image
+                src={`${PUBLIC_ASSETS_PATH}/medicine1.jpg`}
+                paddingBottom={"50vh"}
+              />
           </div>
           <div className={styles.portfolioOne}>
-            {this.renderPortfolioCard(littraChatBot)}
+            {/* {this.renderPortfolioCard(littraChatBot)} */}
+            <Image
+                src={`${PUBLIC_ASSETS_PATH}/medi1.jpg`}
+                paddingBottom={"50vh"}
+              />
+          </div>
+        </div>
+        <div className={styles.portfolioWrapper}>
+          <div className={styles.portfolioTwo}>
+            {/* {this.renderPortfolioCard(littraPersonalization)} */}
+            <Image
+                src={`${PUBLIC_ASSETS_PATH}/medi2.jpg`}
+                paddingBottom={"50vh"}
+              />
+          </div>
+          <div className={styles.portfolioOne}>
+            {/* {this.renderPortfolioCard(littraChatBot)} */}
+            <Image
+                src={`${PUBLIC_ASSETS_PATH}/medi3.jpg`}
+                paddingBottom={"50vh"}
+              />
           </div>
         </div>
       </div>

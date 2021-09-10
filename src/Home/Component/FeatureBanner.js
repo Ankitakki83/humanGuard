@@ -6,6 +6,7 @@ import Icon from "../../general/Icon";
 import { PUBLIC_ASSETS_PATH } from "../../Utils/Constants";
 import _ from "lodash";
 
+
 const cards = [
   {
     icon: "feature3.svg",
@@ -57,7 +58,7 @@ export default class FeatureBanner extends React.Component {
   renderCard = (item, id) => {
     return (
       <div className={styles.card} key={id}>
-        {/* <div className={styles.iconWrapper}>
+        <div className={styles.iconWrapper}>
           <Icon
             className={styles.icons}
             image={`${PUBLIC_ASSETS_PATH}/${item.icon}`}
@@ -66,7 +67,7 @@ export default class FeatureBanner extends React.Component {
         </div>
 
         <h2 className={styles.dark}>{item.title}</h2>
-        <p className={styles.featureDes}>{item.description}</p> */}
+        <p className={styles.featureDes}>{item.description}</p>
       </div>
     );
   };
@@ -74,7 +75,7 @@ export default class FeatureBanner extends React.Component {
     return (
       <div className={styles.base} id="features">
         <div className={styles.featureWrapper}>
-          {_.chunk(cards, 3).map((row) => {
+          {_.chunk(cards, 8).map((row) => {
             return (
               <div className={styles.featureRow}>
                 {row.map((item, id) => {
