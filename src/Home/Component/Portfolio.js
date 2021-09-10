@@ -6,6 +6,7 @@ import Icon from "../../general/Icon";
 import { PUBLIC_ASSETS_PATH } from "../../Utils/Constants";
 import Image from "../../general/Image";
 
+
 class Portfolio extends React.Component {
   renderPortfolioCard = (item) => {
     return (

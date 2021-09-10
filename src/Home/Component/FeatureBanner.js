@@ -6,6 +6,7 @@ import Icon from "../../general/Icon";
 import { PUBLIC_ASSETS_PATH } from "../../Utils/Constants";
 import _ from "lodash";
 
+
 const cards = [
   {
     icon: "feature3.svg",
