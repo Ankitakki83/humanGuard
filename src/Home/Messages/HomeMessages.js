@@ -211,7 +211,7 @@ export default defineMessages({
   },
   portfolioHeading: {
     id: "home.topComponent.portfolioHeading",
-    defaultMessage: "Our Latest Works",
+    defaultMessage: "Our Products",
   },
   littraChatBot: {
     id: "home.topComponent.littraChatBot",

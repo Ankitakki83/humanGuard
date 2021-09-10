@@ -57,10 +57,12 @@ class Home extends React.Component {
           <VisibilityChild>
             <FeatureTwoBanner />
           </VisibilityChild>
+        </div> */}
+        <div className={styles.second}>
+          <VisibilityChild>
+            <Portfolio />
+          </VisibilityChild>
         </div>
-        <VisibilityChild>
-          <Portfolio />
-        </VisibilityChild> */}
 
         <VisibilityChild>
           <WhyUs />
